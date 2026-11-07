@@ -1,7 +1,7 @@
 # HYPERDASH: Lightspeed Courier
 
 <p align="center">
-  <img src="dist/itch/theme/banner_simple_960x300.png" width="960" alt="The HYPERDASH logo above the five courier pilots, with the tagline 2 minutes or it's free">
+  <img src="dist/itch/theme/banner_960x300.gif" width="960" alt="Animated banner: the HYPERDASH logo and tagline as the courier ship streaks past and an EXPRESS stamp lands">
 </p>
 
 A fast sci-fi microgame gauntlet made for SlapJam #2 (theme: **SPEED**).
