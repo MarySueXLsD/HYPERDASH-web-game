@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="HYPERDASH" package="com.slapjam.hyperdash" version="2.0.0" company="SlapJam" />
+	<app main="Main" file="Hyperdash" path="export" />
+
+	<window width="540" height="960" fps="60" background="#000000" orientation="portrait" hardware="true" vsync="true" antialiasing="0" />
+	<!-- On the web the canvas fills the page and the game letterboxes itself. -->
+	<window if="html5" width="0" height="0" resizable="true" />
+
+	<source path="source" />
+	<assets path="assets" exclude="*.md" />
+	<haxelib name="flixel" />
+
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+</project>

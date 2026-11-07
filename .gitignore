@@ -1,0 +1,7 @@
+.haxelib/
+export/
+*.zip
+.claude/
+__pycache__/
+# The trailer render is on YouTube
+dist/itch/trailer/

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="FTL Attendant" package="com.slapjam.badideas" version="1.0.0" company="SlapJam" />
+	<app main="Main" file="BadIdeas" path="export" />
+
+	<window width="540" height="960" fps="60" background="#16161E" orientation="portrait" hardware="true" vsync="true" />
+
+	<source path="source" />
+	<haxelib name="flixel" />
+
+	<haxedef name="FLX_NO_DEBUG" />
+</project>
